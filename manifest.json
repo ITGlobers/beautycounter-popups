@@ -1,0 +1,26 @@
+{
+  "vendor": "counterdemo",
+  "name": "pop-up-eventos",
+  "version": "0.0.4",
+  "title": "Popup eventos",
+  "description": "Popup eventos",
+  "builders": {
+    "react": "3.x",
+    "store": "0.x",
+    "messages": "1.x",
+    "docs": "0.x"
+  },
+  "dependencies": {
+    "vtex.styleguide": "9.x",
+    "vtex.css-handles": "0.x",
+    "vtex.search": "2.x",
+    "vtex.store-graphql": "2.x",
+    "vtex.apps-graphql": "2.x",
+    "vtex.search-graphql": "0.x"
+  },
+  "registries": [
+    "smartcheckout"
+  ],
+  "policies": [],
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
